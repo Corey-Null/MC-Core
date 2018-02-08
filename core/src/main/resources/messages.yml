@@ -1,0 +1,225 @@
+gen:
+  no-permission: "&cYou do not have permission for this."
+  console-restricted: "&cThe console cannot use this command."
+  usage-format: "Syntax error, please use: {0}"
+  stop-kick-message: "&aServer is currently restarting..."
+  account-does-not-exist: "&cThe player {0} does not have an account."
+  account-offline: "&cThe player {0} is not currently online."
+  invalid-number: "&c{0} is not a valid number."
+  non-alpha-numeric: "&c{0} is not alphanumeric"
+nullreload:
+  start: "&cYou have begun reloading the core..."
+  finish: "&aCore reload has finished in {0} seconds."
+  plugin:
+    not-exist: "&cThis plugin does not exist."
+    start: "&cYou have begun reloading {0}"
+    finish: "&aIt took {0} seconds to reload {1}"
+save:
+  start: "&cYou have begun saving the core..."
+  finish: "&aCore save has finished in {0} seconds."
+balance:
+  self: "&aYour balance is {0}"
+  other: "&c{target}&a's balance is {1}"
+economy:
+  take: "&aYou have taken &c{0} &afrom &c{target}&a's balance."
+  give: "&aYou have added &c{0} &ato &c{target}&a's balance."
+  set: "&aYou have set &c{target}&a's balance to &c{0}"
+pay:
+  sending: "&aYou have paid &c{target} {0}"
+  receiving: "&c{target} &ahas paid you &c{0}"
+  inefficient-balance: "&cYou do not have the funds for this."
+spawn:
+  not-set: "&cThe spawn is not yet set."
+  other: "&aYou have sent &c{target} &ato spawn."
+  self: "&aYou have been sent to spawn."
+setspawn:
+  set: "&aYou have set spawn to world:{0} x:{1} y:{2} z:{3}"
+nullpermissions:
+  group:
+    does-not-exist: "&cThe group {0} does not exist."
+    inherit: "&cThe group &b{0} &cnow inherits &b{1}"
+    already-exists: "&cThe rank &b{0} &calready exists."
+    create: "&cYou have created the rank &b{0}"
+    delete: "&cYou have deleted the rank &b{0}"
+    addperm: "&cYou have added the perm &b{0} &cto the rank &b{1}"
+    removeperm: "&cYou have removed the perm &b{0} &cfrom the rank &b{1}"
+    setsuffix: "&cYou have set the suffix of &b{0} &cto &b{1}"
+    setprefix: "&cYou have set the prefix of &b{0} &cto &b{1}"
+  users:
+    addperm: "&cYou have added the perm &b{0} &cto &b{target}"
+    removeperm: "&cYou have removed the perm &b{0} &cfrom &b{target}"
+    setprefix: "&cYou have set the prefix of &b{target} &cto &b{0}"
+    setsuffix: "&cYou have set the suffix of &b{target} &cto &b{0}"
+    setgroup: "&cYou have set the group of &b{target} &cto &b{0}"
+    addgroup: "&cThe user &b{target} &cnow inherits &b{0}"
+    removegroup: "&cThe user &b{target} &cno longer inherits &b{0}"
+back:
+  success: "&aYou have been sent back to your last location."
+  denied: "&cYou have nowhere to go back to."
+bigtree:
+  success: "&aYou have successfully created a big tree"
+  denied: "&cThe core was not able to put a big tree at this location."
+tree:
+  success: "&aYou have successfully created a tree"
+  denied: "&cThe core was not able to put a tree at this location."
+broadcast:
+  format: "&a[Broadcast] &c{0}"
+delwarp:
+  not-exist: "&cThe warp {0} does not exist."
+  deleted: "&aWarp {0} deleted."
+setwarp:
+  created: "&aYou have created the warp {0}"
+  updated: "&aYou have updated the warp {0}"
+warp:
+  list-format: "&aWarps: &c{0}"
+  sent: "&aYou have been sent to the warp {0}"
+  sent-other: "&aYou have sent {target} to the warp {0}"
+  no-permission: "&cYou do not have permission for the warp {0}"
+  empty-list: "No warps found."
+  not-exist: "&cThat warp does not exist."
+message:
+  format:
+    to: "&a[&cMe &a-> &c{target}&a]: {0}"
+    from: "&a[&c{target} &a-> &cMe&a]: {0}"
+  denied: "&cCould not send a message to {0}"
+reply:
+  nobody-to-reply-to: "&cYou have nobody to reply to."
+  format:
+    to: "&a[&cMe &a-> &c{target}&a]: {0}"
+    from: "&a[&c{target} &a-> &cMe&a]: {0}"
+  denied: "&cCould not send a message to {target}"
+feed:
+  self: "&aYou have been fed."
+  other: "&aYou have fed {target}"
+god:
+  self: "&aGod mode has been toggled."
+  other: "&aYou have toggled god mode for {target}."
+heal:
+  self: "&aYou have been healed."
+  other: "&aYou have healed {target}"
+sudo:
+  response: "&aYou have made {target} perform the command &c{0}"
+fly:
+  enable: "&aFlight has been enabled."
+  disable: "&cFlight has been disabled."
+  toggle: "&aFlight has been toggled."
+  other:
+    toggle: "&aYou have toggled flight for {target}"
+    enable: "&aYou have enabled flight for {target}"
+    disable: "&cYou have disabled flight for {target}"
+tp:
+  to: "&aYou have teleported to {target}"
+  wild-card-player: "&cYou cannot teleport to all players."
+  self-exception: "&cYou cannot teleport anyone to themselves."
+  other:
+    sender: "&aYou have teleported {player} to {target}"
+tpall:
+  to: "&aYou have been teleported to {target}"
+  from: "&aYou have teleported all players to you."
+tphere:
+  to: "&aYou have been teleported to {target}"
+  from: "&aYou have teleported {target} to you"
+tppos:
+  sent: "&aYou have been sent to x:{0} y:{1} z:{2}"
+tpa:
+  sent: "&aYou have requested to teleport to {target}"
+  received: "&a{target} has requested to teleport to you, you have 60 seconds to reply."
+tpahere:
+  sent: "&aYou have requested for {target} to teleport to you."
+  received: "&a{target} has requested for you to teleport to them, you have 60 seconds to reply."
+tprequest:
+  no-pending-request: "&cYou do not have a pending request."
+  now-offline: "&c{target} is no longer online."
+  accept: "&aYou have accepted {target}'s request."
+  deny: "&cYou have denied {target}'s request."
+  acc:
+    accept: "&aYour tp request for {target} has been accepted."
+    deny: "&cYour tp request for {target} has been denied."
+sign:
+  success: "&aYou have created a custom sign."
+  denied: "&cSomething went wrong when trying to create the sign."
+checkip:
+  main-header: "&a--- {target}'s IP Information ---"
+  base: "&aCurrentIP: &c{0}"
+  others-header: "&a--- Other Listed IPs ---"
+  others-format: "&a{0}"
+  others-footer: "&a--- Page [{0}/{1}] ---"
+  no-results: "&cNo alternate IP addresses"
+checkalts:
+  header: "&a--- Other Listed Alts ---"
+  format: "&a{target}"
+  footer: "&a--- Page [{0}/{1}] ---"
+  no-results: "&cNo alternate accounts found"
+vanish:
+  enabled: "&aYou have been vanished."
+  disabled: "&cYou have been unvanished."
+baltop:
+  loading: "&aLoading accounts..."
+  header: "&a--- {0} Loaded Accounts ---"
+  format: " &a{target}: &c{1}"
+  footer: "&a--- Page [{0}/{1}] ---"
+  invalid-page: "&cThere are only {0} pages to view."
+gamemode:
+  invalid-gamemode: "&cSorry, the gamemode {0} does not exist."
+gamemodeadventure:
+  execute: "&aYou have been set to gamemode adventure."
+  other: "&aYou have set {target}'s gamemode to adventure."
+gamemodecreative:
+  execute: "&aYou have been set to gamemode creative."
+  other: "&aYou have set {target}'s gamemode to creative."
+gamemodespectator:
+  execute: "&aYou have been set to gamemode spectator."
+  other: "&aYou have set {target}'s gamemode to spectator."
+gamemodesurvival:
+  execute: "&aYou have been set to gamemode survival."
+  other: "&aYou have set {target}'s gamemode to survival."
+jellylegs:
+  enable: "&aJellyLegs has been enabled."
+  disable: "&aJellyLegs has been disabled."
+ban:
+  execute: "&cYou have banned {target}"
+  already-banned: "&cThe player {target} is already perm banned."
+unban:
+  execute: "&c{target} has been unbanned."
+  not-banned: "&c{target} was not currently banned."
+kick:
+  execute: "&c{target} has been kicked."
+kickall:
+  execute: "&cAll players have been kicked."
+tempban:
+  execute: "&c{target} has been banned for {0}"
+  already-banned: "&c{target} is already perm banned."
+  malformed-time: "&c{0} is not a valid time."
+banip:
+  already-banned: "&cThe IP {0} is already banned."
+  execute: "&cThe IP {0} has been banned."
+unbanip:
+  execute: "&c{0} has been unbanned."
+  not-banned: "&c{0} was not currently banned."
+history:
+  page-size: 3
+  no-history-message: "&c{0} has no ban history."
+  header: "&7&m------&a {target} Ban History &7&m------"
+  current-ban: |-
+    &aCurrent Ban:
+    &aStart: &7{0} &aEnd: &7{1}
+    &aBanner: &7{2} &aReason: &7{3}
+  splitter: "&8&m--------------"
+  format: |-
+    &aDate: &7{0} &aType: &7{1}
+      &aBanner: &7{2} &aReason &7{3}
+  footer: "&7&m------&c Page[&6{0}&c/&6{1}&c] &7&m------"
+  invalid-page: "&cThere are only {0} pages."
+banlist:
+  header: "&7&m------&a Ban List &7&m------"
+  ip-format: "&aIP: &7{0} &aAt: &7{1}"
+  uuid-format: "&aName: &7{0} &aAt: &7{1}"
+  footer: "&7&m------&c Page[&6{0}&c/&6{1}&c] &7&m------"
+  invalid-page: "&cThere are only {0} pages."
+  no-list: "&cNo players are currently banned."
+
+
+
+
+
+

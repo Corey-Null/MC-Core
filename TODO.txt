@@ -1,0 +1,17 @@
+~ Chat Module
+~ MySQL data handling integration
+~ Json data handling integration
+~ Shop module (buy/sell signs / chest shops / <admin shops>)
+~ Item API
+
+~ General commands in src/main/java/me/nullbyte/core/commands/general/ for essential commands in mc servers
+
+config options:
+chat-between-worlds (needs to be done after chat module is done)
+
+commands (ideas):
+/help (general) -> config
+/sethome (general) -> playerdata
+/home (general) -> playerdata
+/kill (general)
+/speed (general)

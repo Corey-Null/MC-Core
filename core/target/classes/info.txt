@@ -1,0 +1,28 @@
+Author: NullBytes or ExoticCode
+
+This plugin was made to act like a drag & drop to create an entire server which could be configured and released with minimal other plugins.
+This plugin contains a variety of features such as a custom economy, a complex placeholder system, a custom chat system, and a custom permissions system.
+
+You can set up this plugin to use vault if you wish, or you can use my custom vault plugin which is contained in the zip file downloaded.
+My custom vault plugin will allow compatibility for all of your favorite plugins which want to use my economy or permissions system.
+
+Configuration:
+Each module has it's own folder for configuration (banmanager/economy/permissions/chat) which each have their own rules.
+The messages.yml are located in an obvious order sorted by commands
+
+These placeholders DO NOT work in the messages.yml, check the player.yml for setting up player formats and placeholders for the messages.yml and chat
+Player placeholders for chat/player.yml:
+{effective_prefix} = the prefix which is chosen between the player prefix and rank prefix (player prefix takes priority)
+{player_prefix} = the prefix which is held by the player
+{rank_prefix} = the rank's prefix
+{inherited_prefixes} = this sorts through all the player's inherited ranks, sorts them based on ladder rank and lists their prefixes
+{effective_suffix} = the suffix which is chosen between the player suffix and rank suffix (player suffix takes priority)
+{player_suffix} = the suffix which is held by the player
+{rank_suffix} = the rank's suffix
+{inherited_suffixes} = this sorts through all the player's inherited ranks, sorts them based on ladder rank and lists their suffixes
+{rank_name} = the rank's name
+{inherited_names} = this sorts through all the player's inherited ranks, sorts them based on ladder rank and lists their names
+{balance} = player's balance
+{player} = player's displayname (with nickname)
+{player_default} = player's name (without nickname)
+{ping} = player's ping

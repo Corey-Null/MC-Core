@@ -1,0 +1,3 @@
+currency: "$"
+format: "#,###.##"
+complete-format: "&b{currency}&c{balance}"

@@ -1,0 +1,21 @@
+enabled-modules:
+  permissions: true
+  economy: true
+  banmanager: true
+
+use-vault: false
+
+player-list-format: "{effective_prefix}&b{player}{effective_suffix} &c{ping}"
+
+motd: "&cLine 1\n&bLine 2"
+join-message: "&7[&a+&7] &9%player%"
+quit-message: "&7[&c-&7] &9%player%"
+
+auto-respawn: true
+supress-command-errors: false
+
+vanish:
+  silent-join: true
+  silent-quit: true
+  fake-join: true
+  fake-quit: true

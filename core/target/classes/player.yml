@@ -1,0 +1,15 @@
+# This is all the default formatting for the player
+default-format: "{effective_prefix}&b{player_default}"
+default-hover: |-
+  &7&m---&a {player}'s info &7&m---
+  &aBalance: &7${balance}
+  &aRank: &7{rank_prefix}
+  &aPing: &7{ping}
+  &8>> Click To View Info <<
+default-click: "/info {player}"
+
+# in messages.yml this would be defined as {target_t1}
+t1:
+  format: "{rank_prefix} &b{player_name}"
+  hover: "&aThis is {player}"
+  click: "/info {player}"

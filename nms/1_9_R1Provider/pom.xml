@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>net.expvp</groupId>
+		<artifactId>core-parent</artifactId>
+		<version>0.3.4.11</version>
+	</parent>
+	<groupId>net.expvp</groupId>
+	<artifactId>v1_9_R1</artifactId>
+	<name>NMS-V1_9_R1</name>
+	<description>V1_9_R1 Version provider</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.expvp</groupId>
+			<artifactId>api</artifactId>
+			<scope>provided</scope>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>spigot-api</groupId>
+			<artifactId>nms</artifactId>
+			<scope>system</scope>
+			<version>1.9</version>
+			<systemPath>${project.basedir}/../../libs/1.9.jar</systemPath>
+		</dependency>
+	</dependencies>
+
+</project>

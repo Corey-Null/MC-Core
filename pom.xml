@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.expvp</groupId>
+	<artifactId>core-parent</artifactId>
+	<version>0.3.4.11</version>
+	<packaging>pom</packaging>
+
+	<name>Core-Parent</name>
+	<description>Parent project for all Core modules.</description>
+
+	<!-- <url></url> TODO -->
+	<organization>
+		<name>ExPVP</name>
+		<url>http://expvp.net/</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>Null</id>
+		</developer>
+	</developers>
+
+	<modules>
+		<module>api</module>
+		<module>nms/1_8_R1Provider</module>
+		<module>nms/1_8_R2Provider</module>
+		<module>nms/1_8_R3Provider</module>
+		<module>nms/1_9_R1Provider</module>
+		<module>nms/1_9_R2Provider</module>
+		<module>nms/1_10_R1Provider</module>
+		<module>nms/1_11_R1Provider</module>
+		<module>nms/1_12_R1Provider</module>
+		<module>core</module>
+	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.3.1</version>
+				<configuration>
+					<outputDirectory>${project.basedir}/downloads/</outputDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

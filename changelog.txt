@@ -1,0 +1,37 @@
+1/14/18 ->
+~ Initial commit
+~ Added documentation
+1/15/18 ->
+~ Added /setspawn, /spawn
+1/16/18 ->
+~ Fixed economy bugs
+~ Separated /balance and /economy
+1/18/18 ->
+~ Small bug fixes
+~ Added permissions module
+~ Added mock chat event to test permissions
+1/20/18 ->
+~ Added a bunch of gen commands
+1/21/18 -> 1/28/18 ->
+IP Check system
+/vanish +
+/nightvision +
+/invsee +
+/baltop +
+1/30/18 ->
+/gamemodecreative +
+/gamemodesurvival +
+/gamemodeadventure +
+/gamemodespectator +
+/gamemode +
+command logger
+chat logger
+/null + fake command for testing/debugging
+added ban manager
+2/8/18 ->
+A lot of changes -> Chat system / placeholder API
+Huge reformat in how the plugin framework is setup
+> Moved into a module maven system
+> Uber jar in "core"
+> All parts have own function +1 > easier to manage
+> NMS components now use NMS and not reflection

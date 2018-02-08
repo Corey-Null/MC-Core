@@ -1,0 +1,2 @@
+# This file holds all user made placeholders example: if you have "server: 'servername'" the placeholder {server} will turn into servername
+server: "[Server]"

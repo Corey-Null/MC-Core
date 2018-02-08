@@ -1,0 +1,11 @@
+Default:
+  default: true
+  prefix: "&7[&9Default&7] &r"
+  permissions:
+  - 'core.econ.balance'
+  - 'core.spawn'
+Owner:
+  default: false
+  prefix: "&b[&cOwner&b] &r"
+  permissions:
+  - 'core.*'

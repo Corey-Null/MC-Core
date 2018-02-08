@@ -1,0 +1,361 @@
+name: NullCore
+version: 0.3.4.12
+description: "A complete core for a minecraft server. v0.3.4.12"
+main: "net.expvp.core.plugin.CorePlugin"
+author: NullByte
+website: "https://www.spigotmc.org/members/exoticcode.142730/"
+prefix: "<NullCore>"
+softdepend: [Vault, ProtocolLib]
+
+commands:
+  back:
+  balance:
+    aliases: [bal, money]
+  baltop:
+  ban:
+  banip:
+  banlist:
+  bigtree:
+  broadcast:
+    aliases: [bc, broadc, announce]
+  checkalts:
+    aliases: [ca]
+  checkip:
+    aliases: [cip]
+  delwarp:
+    aliases: [dwarp]
+  economy:
+    aliases: [eco, econ]
+  feed:
+  fly:
+  gamemode:
+    aliases: [gm]
+  gamemodeadventure:
+    aliases: [gma, gmadventure, gm2, gamemode2, gamemodea]
+  gamemodecreative:
+    aliases: [gmc, gmcreative, gm1, gamemode1, gamemodec]
+  gamemodespectator:
+    aliases: [gmsc, gmspectator, gm3, gamemode3, gamemodesc]
+  gamemodesurvival:
+    aliases: [gms, gmsurvival, gm0, gamemode0, gamemodes]
+  god:
+  heal:
+  history:
+  invsee:
+  jellylegs:
+  kick:
+  kickall:
+  message:
+    aliases: [m, msg, tell, t, dm]
+  reply:
+    aliases: [r, respond]
+  nightvision:
+    aliases: [nv]
+  fake:
+  nullpermissions:
+    aliases: [nperms, nullperms, npermissions, npermission, nullpermission, nperm]
+  nullreload:
+    aliases: [nrl, nrel, nreload, nulreload]
+  pay:
+  rules:
+    aliases: [rule]
+  save:
+  setspawn:
+  setwarp:
+    aliases: [swarp]
+  spawn:
+  stop:
+  sudo:
+  tp:
+  tpa:
+  tpaccept:
+  tpall:
+  tpahere:
+  tpdeny:
+  tphere:
+  tppos:
+  tempban:
+    aliases: [tban]
+  tree:
+  unban:
+  unbanip:
+  vanish:
+    aliases: [v]
+  warp:
+    aliases: [warps]
+
+permissions:
+  core.*:
+    default: false
+    children:
+      core.save: true
+      core.reload: true
+      core.stop: true
+      core.econ.*: true
+      core.spawn.*: true
+      core.nullperms.*: true
+      core.back: true
+      core.bigtree: true
+      core.broadcast: true
+      core.delwarp: true
+      core.setwarp: true
+      core.warp.*: true
+      core.message: true
+      core.reply: true
+      core.feed.other: true
+      core.god.other: true
+      core.heal.other: true
+      core.sudo: true
+      core.tree: true
+      core.rules: true
+      core.fly: true
+      core.tp: true
+      core.tpall: true
+      core.tphere: true
+      core.tppos: true
+      core.tpa: true
+      core.tpaccept: true
+      core.tpdeny: true
+      core.tpahere: true
+      core.sign.*: true
+      core.checkip: true
+      core.checkalts: true
+      core.vanish.player: true
+      core.vanish.staff: true
+      core.vanish.player.bypass: true
+      core.vanish.staff.bypass: true
+      core.nightvision: true
+      core.invsee: true
+      core.invsee.modify: true
+      core.baltop: true
+      core.gamemode.*: true
+      core.jellylegs: true
+      core.ban: true
+      core.banip: true
+      core.history: true
+      core.kick: true
+      core.kickall: true
+      core.tempban: true
+      core.unban: true
+      core.unbanip: true
+      core.banlist: true
+  core.banlist:
+    default: false
+  core.ban:
+    default: false
+  core.banip:
+    default: false
+  core.history:
+    default: false
+  core.kick:
+    default: false
+  core.kickall:
+    default: false
+  core.tempban:
+    default: false
+  core.unban:
+    default: false
+  core.unbanip:
+    default: false
+  core.jellylegs:
+    default: false
+  core.gamemode.*:
+    default: false
+    children:
+      core.gamemode: true
+      core.gamemode.adventure: true
+      core.gamemode.creative: true
+      core.gamemode.spectator: true
+      core.gamemode.survival: true
+  core.gamemode.adventure:
+    default: false
+  core.gamemode.creative:
+    default: false
+  core.gamemode.spectator:
+    default: false
+  core.gamemode.survival:
+    default: false
+  core.baltop:
+    default: false
+  core.invsee:
+    default: false
+  core.invsee.modify:
+    default: false
+  core.nightvision:
+    default: false
+  core.vanish.player:
+    default: false
+  core.vanish.staff:
+    default: false
+  core.vanish.player.bypass:
+    default: false
+  core.vanish.staff.bypass:
+    default: false
+  core.checkalts:
+    default: false
+  core.checkip:
+    default: false
+  core.sign.*:
+    default: false
+    children:
+      core.sign.dispose: true
+      core.sign.dispose.create: true
+  core.sign.dispose:
+    default: false
+  core.sign.dispose.create:
+    default: false
+  core.tpa:
+    default: false
+  core.tpaccept:
+    default: false
+  core.tpdeny:
+    default: false
+  core.tpahere:
+    default: false
+  core.tppos:
+    default: false
+  core.tphere:
+    default: false
+  core.tpall:
+    default: false
+  core.tp:
+    default: false
+  core.fly:
+    default: false
+  core.rules:
+    default: false
+  core.tree:
+    default: false
+  core.sudo:
+    default: false
+  core.heal.other:
+    default: false
+    children:
+      core.heal: true
+  core.heal:
+    default: false
+  core.god.other:
+    default: false
+    children:
+      core.god: true
+  core.god:
+    default: false
+  core.feed.other:
+    default: false
+    children:
+      core.feed: true
+  core.feed:
+    default: false
+  core.reply:
+    default: false
+  core.message:
+    default: false
+  core.warp:
+    default: false
+  core.warp.other:
+    default: false
+  core.warp.*:
+    default: false
+    children:
+      core.warp: true
+      core.warp.other: true
+  core.setwarp:
+    default: false
+  core.delwarp:
+    default: false
+  core.broadcast:
+    default: false
+  core.bigtree:
+    default: false
+  core.back:
+    default: false
+  core.nullperms.*:
+    default: false
+    children:
+      core.nullperms.user.*: true
+      core.nullperms.groups.*: true
+      core.nullperms.help: true
+  core.nullperms.user.*:
+    default: false
+    children:
+      core.nullperms.user.perms: true
+      core.nullperms.user.prefix: true
+      core.nullperms.user.suffix: true
+      core.nullperms.user.modifygroups: true
+      core.nullperms.user.view: true
+  core.nullperms.groups.*:
+    default: false
+    children:
+      core.nullperms.groups.perms: true
+      core.nullperms.groups.prefix: true
+      core.nullperms.groups.suffix: true
+      core.nullperms.groups.modify: true
+      core.nullperms.group.list: true
+      core.nullperms.group.view: true
+      core.nullperms.group.create: true
+      core.nullperms.group.delete: true
+  core.nullperms.group.list:
+    default: false
+  core.nullperms.group.view:
+    default: false
+  core.nullperms.group.create:
+    default: false
+  core.nullperms.group.delete:
+    default: false
+  core.nullperms.user.perms:
+    default: false
+  core.nullperms.user.prefix:
+    default: false
+  core.nullperms.user.view:
+    default: false
+  core.nullperms.user.suffix:
+    default: false
+  core.nullperms.user.modifygroups:
+    defualt: false
+  core.nullperms.groups.perms:
+    default: false
+  core.nullperms.groups.prefix:
+    default: false
+  core.nullperms.groups.suffix:
+    default: false
+  core.nullperms.groups.inherit:
+    default: false
+  core.nullperms.help:
+    default: false
+  core.spawn.*:
+    default: false
+    children:
+      core.spawn.setspawn: true
+  core.spawn.setspawn:
+    default: false
+    children:
+      core.spawn.other: true
+  core.spawn:
+    default: false
+  core.spawn.other:
+    default: false
+    children:
+      core.spawn: true
+  core.econ.*:
+    default: false
+    children:
+      core.econ.balance.edit: true
+      core.econ.pay: true
+  core.stop:
+    default: false
+  core.save:
+    default: false
+  core.reload:
+    default: false
+  core.econ.balance:
+    default: false
+  core.econ.balance.other:
+    default: false
+    children:
+      core.econ.balance: true
+  core.econ.balance.edit:
+    default: false
+    children:
+      core.econ.balance.other: true
+  core.econ.pay:
+    default: false

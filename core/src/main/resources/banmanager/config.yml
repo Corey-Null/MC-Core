@@ -1,0 +1,7 @@
+ban-message: "&cYou have been banned from this server.\n&cBanned by: %banner% For: %reason%"
+kick-message: "&aYou have been kicked.\n&cKicked by: %kicker% For: %reason%"
+temp-ban-message: "&cYou have been temporarily banned for: %time%\n&cBanned by: %banner% For: %reason%"
+ban-ip-message: "&cYour IP address has been banned from this server.\n&cBanned by: %banner% For: %reason%"
+
+default-ban-reason: "Breaking the server rules."
+default-kick-reason: "Disrupting the server."
